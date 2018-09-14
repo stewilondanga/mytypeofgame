@@ -339,4 +339,4 @@ function typing(e) {
   }
 }
 
-/*          	document.addEventListener("keydown", typing, false);
+document.addEventListener("keydown", typing, false);
