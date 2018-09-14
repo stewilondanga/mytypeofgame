@@ -62,7 +62,7 @@ h1+p {
   background-color: #04AF71;
 }
 
-/*button {
+button {
   border: none;
   background-color: #FF7373;
   box-shadow: 0px 5px 0px 0px #CE4646;
@@ -78,7 +78,7 @@ h1+p {
   cursor: pointer;
 }
 
-button:active {
+/*button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   box-shadow: 0px 1px 0px 0px;
