@@ -93,13 +93,13 @@ button:active {
   margin-top: 50px;
 }
 
-/*.words span {
+.words span {
   font-size: 60px;
   letter-spacing: 1px;
   color: #ECF0F1;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
