@@ -78,13 +78,13 @@ button {
   cursor: pointer;
 }
 
-/*button:active {
+button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   box-shadow: 0px 1px 0px 0px;
 }
 
-.scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
+/*.scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
   font-size: 30px;
   color: #FF7373;
 }
