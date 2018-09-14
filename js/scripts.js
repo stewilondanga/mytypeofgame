@@ -296,14 +296,14 @@ const list = ['ACCOUNT', 'ACCURATE', 'ACRES', 'ACROSS', 'ACT', 'ACTION', 'ACTIVE
   'YOUR', 'YOURSELF', 'YOUTH', 'ZERO', 'ZOO'
 ];
 
-/*      	button.addEventListener("click", function(e){
-      		countdown();
-      		random();
-      		button.disabled = true;
-      	});
+button.addEventListener("click", function(e) {
+  countdown();
+  random();
+  button.disabled = true;
+});
 
 
-      	function typing(e) {
+/*      	function typing(e) {
       			typed = String.fromCharCode(e.which);
       			for (var i = 0; i < spans.length; i++) {
       				if (spans[i].innerHTML === typed) { // if typed letter is the one from the word
