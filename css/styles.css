@@ -5,6 +5,11 @@
   -webkit-box-sizing: border-box;
 }
 
+body {
+  background-color: #B8A207;
+  font-family: 'Raleway', sans-serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -26,11 +31,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-body {
-  background-color: #B8A207;
-  font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
