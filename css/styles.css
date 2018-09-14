@@ -48,11 +48,11 @@ h1+p {
   float: left;
 }
 
-/*.timeWrap {
+.timeWrap {
   float: right;
 }
 
-.outerWrap:after {
+/*.outerWrap:after {
   content: "";
   display: block;
   clear: both;
