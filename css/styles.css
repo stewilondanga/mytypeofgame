@@ -89,11 +89,11 @@ button:active {
   color: #FF7373;
 }
 
-/*.wordsWrap {
+.wordsWrap {
   margin-top: 50px;
 }
 
-.words span {
+/*.words span {
   font-size: 60px;
   letter-spacing: 1px;
   color: #ECF0F1;
