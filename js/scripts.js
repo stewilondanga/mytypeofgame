@@ -7,18 +7,18 @@ var navigate = (function() {
   });
 })();
 
-/*var temp = document.querySelector('.time');
- 	var button = document.querySelector("button");
- 	var words = document.querySelector(".words");
- 	var timerDiv = document.querySelector(".time");
- 	var scoreDiv = document.querySelector(".score");
- 	var points = 0;
- 	var spans;
- 	var typed;
- 	var seconds = 60;
-  var spark = new Audio("http://k003.kiwi6.com/hotlink/qdpr7bioht/spark.mp3");
+var temp = document.querySelector('.time');
+var button = document.querySelector("button");
+var words = document.querySelector(".words");
+var timerDiv = document.querySelector(".time");
+var scoreDiv = document.querySelector(".score");
+var points = 0;
+var spans;
+var typed;
+var seconds = 60;
+var spark = new Audio("http://k003.kiwi6.com/hotlink/qdpr7bioht/spark.mp3");
 
- 	function countdown() {
+/* 	function countdown() {
  		points = 0;
  		var timer = setInterval(function(){
  			button.disabled = true;
