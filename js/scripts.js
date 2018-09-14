@@ -320,23 +320,23 @@ function typing(e) {
     if (spans[j].className === "span bg") {
       checker++;
     }
-    /*        				if (checker === spans.length) { // if so, animate the words with animate.css class
-                      spark.pause();
-          					  spark.currentTime = 0;
-                      spark.play();
-            					words.classList.add("animated");
-            					words.classList.add("fadeOut");
-            					points++; // increment the points
-            					scoreDiv.innerHTML = points; //add points to the points div
-            					document.removeEventListener("keydown", typing, false);
-            					setTimeout(function(){
-            						words.className = "words"; // restart the classes
-            						random(); // give another word
-            						document.addEventListener("keydown", typing, false);
-            					}, 400);
-            				}
+    if (checker === spans.length) { // if so, animate the words with animate.css class
+      spark.pause();
+      spark.currentTime = 0;
+      spark.play();
+      words.classList.add("animated");
+      words.classList.add("fadeOut");
+      points++; // increment the points
+      scoreDiv.innerHTML = points; //add points to the points div
+      document.removeEventListener("keydown", typing, false);
+      setTimeout(function() {
+        words.className = "words"; // restart the classes
+        random(); // give another word
+        document.addEventListener("keydown", typing, false);
+      }, 400);
+    }
 
-            			}
-            	}
+  }
+}
 
-            	document.addEventListener("keydown", typing, false);
+/*          	document.addEventListener("keydown", typing, false);
