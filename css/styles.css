@@ -39,12 +39,12 @@ h1 {
   color: #ecf0f1;
 }
 
-/*h1+p {
+h1+p {
   margin-bottom: 5%;
   color: #3498db;
 }
 
-.scoreWrap {
+/*.scoreWrap {
   float: left;
 }
 
